@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Учебный курс</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="styling.css" rel="stylesheet">   
+     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <body data-spy="scroll" data-target="#mynavBar">
+<!--    vide -->
+   <video autoplay loop muted id="bgvideo">
+        <source src="images/dress.mp4" type="video/mp4">
+   </video>
+<!--   navbar-->
+   <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavBar">
+       <div class="container-fluid">
+           <div class="navbar-header">
+                <a class="navbar-brand">Курс кройки и шитья</a>
+                <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                   <span class="sr-only">Переключить навигацию</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+           </div>
+           <div  class="navbar-collapse collapse" id="navbarCollapse">
+               <ul class="nav navbar-nav pull-right">
+                   <li class="active"><a href="#home">Домой</a></li>
+                   <li><a href="#about">О нас</a></li>
+                   <li><a href="#promise">Возможности</a></li>                   
+               </ul>
+           </div>
+       </div>
+   </nav>
+<!--   home secion-->
+<div class="jumbotron" id="home">
+    <div class="container">
+        <h1>Пройдите курс пошива и кройки</h1>
+        <h2>Путь от заправщика нитки в иголки до портного экстра-класса</h2>
+        <p><a class="btn" href="#">Пробуйте!</a></p>
+    </div>
+</div>
+<!--   about section-->
+   <div id="about">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-4">
+                   <img src="images/sew.png" alt="aboutImage">
+                   <h2>Насыщенные лекции</h2>
+                   <p>Практические лекции "без воды"</p>
+               </div>
+               <div class="col-md-4">
+                   <img src="images/video.png" alt="aboutImage">
+                   <h2>54 часа уникального контента</h2>
+                   <p>Узнайте о раскрое, моделировании и создании выкроек по лекалам, а также тонкой обработке швов</p>
+               </div>
+               <div class="col-md-4">
+                   <img src="images/help.png" alt="aboutImage">
+                   <h2>Помощь опытных наставников в любое время</h2>
+                   <p>Наши консультанты подключаются из разных часовых поясов, поэтому вы сможете прокунсультироваться в режиме 7/24</p>
+               </div>                              
+           </div>
+       </div>
+   </div>
+<!--   carousel-->
+   <div id="promise" class="container-fluid">
+       <div class="carousel slide" id="myCarousel" data-ride="carousel">
+           <ol class="carousel-indicators">
+               <li data-target="myCarousel" data-slide-to="0">
+                   
+               </li>
+               <li data-target="myCarousel" data-slide-to="1">
+                   
+               </li> 
+               <li data-target="myCarousel" data-slide-to="2">
+                   
+               </li>                            
+               <li data-target="myCarousel" data-slide-to="3">
+                   
+               </li> 
+               <li data-target="myCarousel" data-slide-to="4">
+                   
+               </li> 
+               <li data-target="myCarousel" data-slide-to="5">
+                   
+               </li>      
+               <li data-target="myCarousel" data-slide-to="6">
+                   
+               </li>                                                          
+           </ol>
+           <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/lecture.jpg">
+                <div  class="carousel-caption">
+                    <h2>Предельно четкий и на 100% захватывающий контент</h2>
+                </div>
+            </div>
+             
+            <div class="item">
+                <img src="images/puzzle.jpg">
+                <div  class="carousel-caption">
+                    <h2>Всеохватывающий учебный курс, включающий раскрой, оторочку и ушивание</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/start.jpg">
+                <div  class="carousel-caption">
+                    <h2>Первоначальные знания не требуются. Все, что нужно, узнаете на курсе</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/projects.jpg">
+                <div  class="carousel-caption">
+                    <h2>В рамках курса Вы сделаете 15 различных изделий (летнее и вечернее платье, горжетку, манто и многое другое)</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/money.jpg">
+                <div  class="carousel-caption">
+                    <h2>В обмен на символическую плату Вы получите востребованные знания и навыки, которые окупятся в первый месяц</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/skills.jpg">
+                <div  class="carousel-caption">
+                    <h2>Мы держим руку на пульсе индустрии, а значит Вы научитесь тому, за чем работодатели охотятся прямо сейчас</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/time.jpg">
+                <div  class="carousel-caption">
+                    <h2>Наш учебный курс - это инвестиция на всю жизнь. Пожизненный доступ. Постоянное обновление контента</h2>
+                </div>
+            </div>
+
+                        
+           </div>
+           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"></span>
+               <span class="sr-only">Предыдущий</span>
+           </a>
+           <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+               <span class="sr-only">Слудующий</span>
+           </a>       </div>
+   </div>
+<!--   footer-->
+   <div class="footer">
+       <div class="container">
+           <p>&copy; Сделано на коленке</p>
+       </div>
+   </div>
+   
+    
+    
+                      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+         $('.carousel').carousel({
+            interval: 10000 
+         });
+      });
+      </script>
+  </body>
+</html>
